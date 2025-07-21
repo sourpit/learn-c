@@ -1,22 +1,21 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-int
-main (void)
+int main(void)
 {
-  // In C, 0 means "false" and non-zero means "true"
-  int x = 1;
-  bool ow = true;
+    // In C, 0 means "false" and non-zero means "true"
+    int x = 1;
+    bool ow = true;
 
-  if (x)
+    if (x)
     {
-      printf ("x is true!\n");
+        printf("x is true!\n");
     }
 
-  if (ow)
+    if (ow)
     {
-      printf ("x is true!\n");
+        printf("x is true!\n");
     }
 
-  printf ("%d\n", true == 12); // prints "0", false!
+    printf("%d\n", true == 12);  // prints "0", false!
 }
