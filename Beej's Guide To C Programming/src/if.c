@@ -1,36 +1,32 @@
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
   int a = 0, b = 0;
   int *pa = &a, *pb = NULL;
 
-  if(a != 0)
+  if (a != 0)
     fprintf(stdout, "a is true\n");
-  else if (a == 0)  {
+  else if (a == 0) {
     fprintf(stdout, "a is false\n");
   }
 
   if (b == 0)
     fprintf(stdout, "b is False\n");
-  else if (b != 0)  {
+  else if (b != 0) {
     fprintf(stdout, "b is True\n");
   }
 
   fprintf(stdout, "--------\n");
 
-  if(a) {
+  if (a) {
     fprintf(stdout, "a is true\n");
-  }
-  else if (!a){
+  } else if (!a) {
     fprintf(stdout, "a is false\n");
   }
 
-  if (!b)
-  {
+  if (!b) {
     fprintf(stdout, "b is false\n");
-  }
-  else if (b){
+  } else if (b) {
     fprintf(stdout, "b is true\n");
   }
 
